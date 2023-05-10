@@ -1,0 +1,248 @@
+header {
+    display: block;
+    text-align: center;
+    background-color: #363b3b;
+    box-shadow: 5px 5px 5px 5px rgb(119, 65, 180);
+    margin: 0;
+    width: 100%;
+    z-index: 2;
+    position: fixed;
+    top: 0;
+    height: 75px;
+    overflow: hidden;
+}
+
+.top_menu ul {
+    padding: 10;
+    margin-top: 20;
+    color: white;
+    font-size: 30px;
+}
+
+.top_menu li {
+    width: auto;
+    height: 45px;
+    display: inline-block;
+    background-color: rgb(119, 65, 180);
+    list-style-type: none;
+    padding-left: 80px;
+    padding-right: 80px;
+}
+
+#logo {
+    display: inline-block;
+    width: 40px;
+    height: 40px;
+    float: left;
+    padding: 4px;
+    margin-left: 10px;
+    margin-right: 25px;
+    size: 50%;
+}
+
+body {
+    background-color: #363b3b;
+}
+
+.info {
+    display: flex;
+    box-shadow: -5px 5px 5px 5px rgb(119, 65, 180);
+    width: 1200px;
+    margin: auto;
+    margin-left: 66px;
+    color: white;
+    font-size: 40px;
+    font-family: 'Times New Roman', Times, serif;
+    letter-spacing: 0;
+    top: 250px;
+    position: absolute;
+    justify-content: space-around;
+}
+
+.avatar { 
+	width:450px;
+	height:600px;
+    box-shadow: 5px 5px 5px 5px rgb(119, 65, 180);
+	position:absolute;
+	left:1400px;
+	top:160px;
+	background-image:url(avatar.jpeg);
+	background-repeat:no-repeat;
+	background-size:cover;
+    size: 75%;
+}
+
+.name { 
+	color:white;
+	width:231px;
+	height:58px;
+	position:absolute;
+	left:66px;
+	top:500px;
+	font-family:Inter;
+	text-align:left;
+	font-size:30px;
+	letter-spacing:0;
+}
+
+input[type=text] { 
+	background-color:white;
+	width:300px;
+	height:40px;
+	position:absolute;
+	left:66px;
+	top:550px;
+	font-size:30px;
+}
+
+.phone { 
+	color:white;
+	width:309px;
+	height:58px;
+	position:absolute;
+	left:450px;
+	top:500px;
+	font-family:Inter;
+	text-align:left;
+	font-size:30px;
+	letter-spacing:0;
+}
+
+input[type=tel] { 
+	background-color:white;
+	width:300px;
+	height:40px;
+	position:absolute;
+	left:450px;
+	top:550px;
+	font-size:30px;
+}
+
+.service {
+    color:white;
+	width:309px;
+	height:58px;
+	position:absolute;
+	left:835px;
+	top:500px;
+	font-family:Inter;
+	text-align:left;
+	font-size:30px;
+	letter-spacing:0;
+}
+
+select { 
+	background-color:white;
+	width:200px;
+	height:40px;
+	position:absolute;
+	left:835px;
+	top:550px;
+	font-size:30px;
+    color: black;
+}
+
+.c-button{
+	background-color: white;
+    font-size: 30px;
+	width:450px;
+	height:60px;
+	position:absolute;
+	left: 400px;
+	top:650px;
+	border-radius: 30px;
+	border:0;
+	}
+	.c-button:hover{
+	background-color: rgb(119, 65, 180);
+	}
+	.c-button:focus{
+	outline:none;
+	box-shadow: 0 0 0 2px rgb(119, 65, 180);
+	position:absolute;;
+	}
+
+.example { 
+	color:white;
+	width:377px;
+	height:48px;
+	position:absolute;
+	left:752px;
+	top:800px;
+	font-family:'Times New Roman', Times, serif;
+	text-align:right;
+	font-size:40px;
+	letter-spacing:0;
+}
+
+.primer1 { 
+	width:661px;
+	height:639px;
+	position:absolute;
+	left:100px;
+	top:900px;
+	background-image:url(primer1.png);
+	background-repeat:no-repeat;
+	background-size:cover;
+    size: 50%;
+}
+
+.cheats { 
+	color:white;
+	width:606px;
+	height:48px;
+	position:absolute;
+	left:259px;
+	top:1600px;
+	font-family:'Times New Roman', Times, serif;
+	text-align:left;
+	font-size:40px;
+	letter-spacing:0;
+}
+
+.primer2 { 
+	width:1000px;
+	height:639px;
+	position:absolute;
+	left:850px;
+	top:900px;
+	background-image:url(primer2.png);
+	background-repeat:no-repeat;
+	background-size:cover;
+}
+
+.estate { 
+	color:white;
+	width:750px;
+	height:48px;
+	position:absolute;
+	left:1020px;
+	top:1600px;
+	font-family:'Times New Roman', Times, serif;
+	text-align:left;
+	font-size:40px;
+	letter-spacing:0;
+}
+
+.site-footer {
+    background-color: #363b3b;
+    box-shadow: 5px -5px 5px 5px rgb(119, 65, 180);
+    margin: 0;
+    width: 100%;
+    position: fixed;
+    bottom: 0;
+    color: white;
+    font-size: 20px;
+}
+
+.site-footer .container {
+    text-align: center;
+}
+
+.site-footer p {
+    color: white;
+    display: inline-block;
+    vertical-align: middle;
+    text-align: center;
+    padding: 0 20px;
+}
